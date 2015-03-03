@@ -1,4 +1,4 @@
-* {
+body {
   text-align: center;
 }
 .article {
@@ -34,4 +34,13 @@
 .home:hover {
   color: black;
   background-color: white;
+}
+
+@media (max-width: 600px) {
+  body {
+    font-size: 1.5rem;
+  }
+}
+
+  }
 }
