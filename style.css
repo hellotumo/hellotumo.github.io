@@ -1,4 +1,37 @@
+* {
+  text-align: center;
+}
+.article {
+  text-align: center;
+  padding: 10px;
+  margin: 0 20px 20px;
+  border: 1px solid #e7e7e7;
+}
 .date {
   font-size: .75rem;
   font-style: italic;
+}
+
+.ref {
+ vertical-align: super;
+ font-size: .65rem;
+ font-weight: 600;
+}
+
+.ref a {
+  color: blue;
+  text-decoration: none;
+  padding: 2px;
+}
+
+.home {
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+}
+
+.home:hover {
+  color: black;
+  background-color: white;
 }
