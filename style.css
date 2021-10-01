@@ -12,6 +12,11 @@ body {
   font-style: italic;
 }
 
+.menu-main {
+   padding: 20px;
+   border: 1px solid #e7e7e7;
+}
+
 .ref {
  vertical-align: super;
  font-size: .65rem;
